@@ -7,6 +7,8 @@
 		<Description>This package includes a set of Maths classes.</Description>
 		<RootNamespace>Utility</RootNamespace>
 		<LangVersion>latest</LangVersion>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Authors>Simon Jefferies</Authors>
 	</PropertyGroup>
 
 	<ItemGroup>
