@@ -5,6 +5,30 @@ namespace Utility;
 
 public static class Maths
 {
+    /// <summary>
+    /// Linearly interpolates between two values based on a percentage.
+    /// </summary>
+    /// <param name="from">The starting value.</param>
+    /// <param name="to">The ending value.</param>
+    /// <param name="percent">The interpolation percentage, where 0.0 represents the start value and 1.0 represents the end value.</param>
+    /// <returns>The interpolated value.</returns>
+    [DebuggerStepThrough]
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static float Lerp(float from, float to, float percent)
+        => from + ((to - from) * percent);
+
+    /// <summary>
+    /// Linearly interpolates between two values based on a percentage.
+    /// </summary>
+    /// <param name="from">The starting value.</param>
+    /// <param name="to">The ending value.</param>
+    /// <param name="percent">The interpolation percentage, where 0.0 represents the start value and 1.0 represents the end value.</param>
+    /// <returns>The interpolated value.</returns>
+    [DebuggerStepThrough]
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static double Lerp(double from, double to, double percent)
+        => from + ((to - from) * percent);
+
     /// <summary>Return the angle between two points in radians.</summary>
     /// <param name="x1">The first x position.</param>
     /// <param name="y1">The first y position.</param>
