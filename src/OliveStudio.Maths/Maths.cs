@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-namespace Utility;
+namespace OliveStudio;
 
 public static class Maths
 {

@@ -1,4 +1,4 @@
-namespace Utility
+namespace OliveStudio
 {
     public interface IRandomiser
     {
