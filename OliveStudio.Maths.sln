@@ -4,6 +4,8 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OliveStudio.Maths", "src\OliveStudio.Maths\OliveStudio.Maths.csproj", "{A67FAF35-E54A-55AF-7C30-2BD8FC8CF1DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OliveStudio.Maths.Tests", "tests\OliveStudio.Maths.Tests\OliveStudio.Maths.Tests.csproj", "{8872B1DC-CAE3-4CC1-AFFF-07A0BFB20168}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +16,10 @@ Global
 		{A67FAF35-E54A-55AF-7C30-2BD8FC8CF1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A67FAF35-E54A-55AF-7C30-2BD8FC8CF1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A67FAF35-E54A-55AF-7C30-2BD8FC8CF1DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8872B1DC-CAE3-4CC1-AFFF-07A0BFB20168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8872B1DC-CAE3-4CC1-AFFF-07A0BFB20168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8872B1DC-CAE3-4CC1-AFFF-07A0BFB20168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8872B1DC-CAE3-4CC1-AFFF-07A0BFB20168}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
